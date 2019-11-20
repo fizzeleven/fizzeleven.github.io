@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Handsome 使用文档</title>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" type="image/ico" href="https://www.ihewro.com/favicon.ico">
+  <link href="./vue.css" rel="stylesheet">
+  </head>
+<body>
+  <div id="app">加载中……</div>
+</body>
+<script>
+  window.$docsify = {
+      homepage: 'home.md',
+      coverpage: true,
+      subMaxLevel: 9999,
+      name: '<img src="/logo.svg" no-zoom height="32px">',
+      nameLink: {
+      '/': '/#/'
+      },
+      loadSidebar: true,
+      autoHeader: true,
+      auto2top: true,
+      search: {
+        paths: 'auto',
+        placeholder: '输入关键字，快速寻找答案 🔍',
+        noData: 'No Results! 😞',
+        depth: 6,
+    }
+
+  }
+</script>
+
+
+<script src="/media/docsify.min.js"></script>
+<script src="/media/search.min.js"></script>
+
+<script type="text/javascript">
+  var host = "nopoint11.github.io";
+  if (("localhost:3000" !== window.location.host) && (window.location.protocol != "https:") && ("127.0.0.1:3000" !== window.location.host))
+      window.location.protocol = "https";
+</script>
+
+
+</html>
